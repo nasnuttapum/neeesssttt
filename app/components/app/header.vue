@@ -1,16 +1,17 @@
 <template>
-    <div class="font-[sans-serif] Bg-gray-900 min-h-screen">
-        <!-- Start Header-->
-        <div class=" text-gray-900 bg-[#C97D7D]">
-            <h1>Header</h1>
-        </nav> class="container px-6 py-[0.8rem] mx-auto md:justify-between md:item-center shadow-x1 pl-5 md:px-30 z-0 cursor"
-        </div>
-        <!--End Header -->
+  <div class="font-[sans-serif] bg-gray-200 min-h-screen">
+    <!-- Start Header -->
+    <div class="text-gray-600 bg-[#AC1CE3]">
+      <nav class="container px-6 py-[0.8rem] mx-auto md:flex md:justify-between md:items-center shadow-xl pl-5 md:px-30 z-0 cursor-pointer">
+        <NuxtLink to="/" class="flex justify-center items-center text-white text-md md:text-2xl font-bold hover:text-blue-200">
+          <span class="text-center ml-2">Dev</span>
+        </NuxtLink>
+      </nav>
     </div>
+    <!-- End Header -->
+  </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
